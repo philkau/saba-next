@@ -1,0 +1,30 @@
+{
+  "name": "saba-future",
+  "version": "1.0.0",
+  "description": "This is going to be the saba future platform!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnoneworks/saba-future.git"
+  },
+  "author": "John Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnoneworks/saba-future/issues"
+  },
+  "homepage": "https://github.com/johnoneworks/saba-future#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "@openzeppelin/contracts": "^4.8.2",
+    "@openzeppelin/contracts-upgradeable": "^4.8.3",
+    "@openzeppelin/hardhat-upgrades": "^1.26.0",
+    "dotenv": "^16.0.3"
+  }
+}
